@@ -109,6 +109,10 @@ body {
   grid-area: central;
 }
 
+.scale:hover {
+  transform: scale(1.1);
+}
+
 .doble {
   grid-column: span 2;
 }
@@ -116,6 +120,7 @@ body {
 .dobleh {
   grid-row: span 2;
 }
+
 
 /*MEDIA QUERIES */
 

@@ -1,47 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Estilos-->
     <link rel="stylesheet" href="css/estilos.css">
 
-    <title>DESAFIO 4</title>
+     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>bootstrap</title>
+
 </head>
 <body>
-    <div class="claseConHover">
 
-    <!-- MENU PRINCIPAL-->  
+    <!-- NAVMENU BOOTSTRAP -->
+<div class="container-fluid bg-black-navbar px-0">
+        <div class="container-xl px-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+     <div class="container-fluid">
+       <a class="navbar-brand" href="index.html"></a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contactos.html">Contactos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorias
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="./componentes.html">Componentes</a></li>
+            <li><a class="dropdown-item" href="./perifericos.html">Perifericos</a></li>
+            <li><a class="dropdown-item" href="./accesorios.html">Accesorios</a></li>
+            <li><a class="dropdown-item" href="./conectividad.html">Conectividad</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</div>
+</div>
     
-    <div class="header">
-        <div class="logo"><img src="./assets/logo1.jpg" alt="logo de la pagina"></div>
-        <ul class="navBar">
-            <li class=""><a href="./componentes.html">Componentes</a></li>
-            <li class=""><a href="./perifericos.html">Perifericos</a></li>
-            <li class=""><a href="./accesorios.html">Accesorios</a></li>
-            <li class=""><a href="./conectividad.html">Conectividad</a></li>
-            <li class=""><a href="./contactos.html">Contactos</a></li>
-        </ul>
-    </div>
-
+<!--FOTOS ASUS ROG -->
+   
     <div class="contenido">
-        <img src="./assets/foto1.jpg" alt="rog1">
+      <img src="./assets/foto1.jpg" alt="rog1">
         <p>ROG fue creada con el espíritu de crear las notebook gamers mas poderosas y versátiles de la industria. Nuestros equipos llevan la experiencia del gaming a un nuevo nivel. con las mejores pantallas, los mejores gráficos disponibles a nivel global y sistemas innovadores de disipación. </p>
-        <img class="foto2" src="assets/foto2.jpg" alt="rog2">
+      <img class="foto2" src="assets/foto2.jpg" alt="rog2">
     </div>
 
-      <!--galeria grid-->
-    <div class="galeria">
-        <div class="padre">
-            <img class="fotoPrincipal scale"src="./assets/foto1a.jpeg" alt="procesador">
-            <img class="doble scale" src="./assets/foto2a.jpg" alt="notebooks">
-            <img class="dobleh scale" src="./assets/foto3a.jpeg" alt="memoria">
-            <img class="dobleh scale" src="./assets/foto4a.jpeg" alt="teclado">
-            <img class="doble scale" src="./assets/foto5a.jpg" alt="auriculares">
-        </div>
+<!--CARRUSEL DE FOTOS-->
+
+<div class="text-center pt-5">
+        <h1>OFERTAS</h1>
+        <p>Aqui se podran ver las mejores ofertas semanales</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/carrusel1.jpg" class="d-block w-100" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="assets/carrusel2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/carrusel3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+          </div>
+   </div>
 
     <!-- PIE DE PAGINA -->
 
@@ -51,5 +109,6 @@
         <li> <a href="">Meta</a></li>
         <li><a href="">Linkdln</a></li>
     </ul>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

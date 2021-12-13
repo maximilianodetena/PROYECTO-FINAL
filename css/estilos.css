@@ -1,5 +1,3 @@
-
-
 /*RESETEO*/
 
 * {
@@ -13,52 +11,19 @@ body {
   background: linear-gradient(to left ,red,yellow);
 }
 
-.header {
-  margin-bottom: 20px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #7b1414a1;
-}
-
-.header .logo {
-  margin-top: 30px;
-  align-self: center;
-}
-
-.header .logo img {
-  width: 75px;
-  border-radius: 50%;
-  border: 2px solid black;
-  box-sizing: border-box;
-}
-
-.header .navBar li {
-  background-color:#7d1414b8;
-  margin: 10px 2rem;
-  padding: 3px;
-  list-style: none;
-}
-
-.header .navBar li a {
-  color: black;
-  font-style:italic;
-  font-weight: bold;
-}
-.menucomponentes .navBar li {
-  margin: 10px 2rem;
-  padding: 3px;
-  list-style: none;
-}
-.menucomponentes .navBar li a {
-  color: black;
-  font-style:italic;
-  font-weight: bold;
-}
 
 /*CONTENIDO*/
 
+.bg-black-navbar{
+  background-color: #0000006b;
+}
+.dropdown-menu{
+  background-color: #0000006b !important;
+}
+.btn-outline-success {
+    color: #000 !important;
+    border-color: #000 !important;
+}
 .contenido {
   margin: 30px 0;
   display: flex;
@@ -78,81 +43,27 @@ body {
   box-sizing: border-box;
 }
 
-/*GALERIA DE FOTOS CON GRID*/
 
-.galeria {
-  display: flex;
-  justify-content: center;
-  margin: 3% 0;
-}
+/*GALERIA COMPONENTES */
 
-.padre {
-  width: 80%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  grid-template-areas:
-    ". . ."
-    ". central ."
-    ". . .";
-}
-
-.padre img {
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+} 
+#galeria img {
   width: 100%;
-  height: 100%;
-  background-size: cover;
-  object-fit: cover;
-  border: 2px solid rgb(187, 69, 69);
-}
+  height: 350px;
+} 
 
-.fotoPrincipal {
-  grid-area: central;
-}
-
-.scale:hover {
-  transform: scale(1.1);
-}
-
-.doble {
-  grid-column: span 2;
-}
-
-.dobleh {
-  grid-row: span 2;
-}
+#galeria img:hover {
+  border: 5px solid #f7f7f7;
+} 
 
 
 /*MEDIA QUERIES */
 
 @media all and (min-width: 768px) {
-  body {
-    font-size: 1.25rem;
-  }
-
-  .header {
-    flex-direction: row;
-  }
-  .header .logo {
-    margin: 0 2rem;
-  }
-
-  .header .navBar {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  .header .navBar li {
-    background-color:#7b1414a1;
-    margin: 2rem 20px;
-  }
-
-  .header .navBar li a {
-  color: black;
-  font-style:italic;
-  font-weight: bold;
-}
-
+ 
   .contenido {
     margin: 5rem 1rem;
     display: flex;

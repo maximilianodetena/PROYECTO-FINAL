@@ -1,60 +1,50 @@
 /*RESETEO*/
-/* line 6, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+/* line 3, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 11, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
-.contenido {
-  display: flex;
-}
-
-/* line 15, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+/* line 8, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
 body {
   font-family: Copperplate,arial,helvetica, sans-serif;
   font-size: 1rem;
   background: linear-gradient(to left, red, yellow);
 }
 
-/*ENCABEZADO*/
-/* line 23, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
-.encabezado {
-  align-items: center;
-}
-
 /*CONTENIDO*/
-/* line 30, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+/* line 16, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
 .bg-black-navbar {
   background-color: #0000006b;
 }
 
-/* line 33, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+/* line 19, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
 .dropdown-menu {
   background-color: #0000006b !important;
 }
 
-/* line 36, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+/* line 22, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
 .btn-outline-success {
   color: #000 !important;
   border-color: #000 !important;
 }
 
-/* line 41, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+/* line 27, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
 .contenido {
   margin: 30px 0;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 48, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+/* line 34, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
 .contenido img {
   width: 80%;
   height: 80%;
 }
 
 @media all and (min-width: 768px) {
-  /* line 48, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+  /* line 34, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
   .contenido img {
     width: 50%;
     height: auto;
@@ -62,14 +52,14 @@ body {
 }
 
 @media all and (min-width: 980px) {
-  /* line 48, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+  /* line 34, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
   .contenido img {
     width: 30%;
     height: auto;
   }
 }
 
-/* line 64, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+/* line 49, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
 .contenido p {
   width: 80%;
   padding: 5px;
@@ -79,7 +69,7 @@ body {
 }
 
 @media all and (min-width: 768px) {
-  /* line 64, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+  /* line 49, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
   .contenido p {
     width: 50%;
     padding: 15px;
@@ -90,7 +80,7 @@ body {
 }
 
 @media all and (min-width: 980px) {
-  /* line 64, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+  /* line 49, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
   .contenido p {
     width: 30%;
     max-height: 288px;
@@ -102,7 +92,7 @@ body {
 }
 
 @media all and (min-width: 768px) {
-  /* line 41, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+  /* line 27, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
   .contenido {
     margin: 5rem 1rem;
     display: flex;
@@ -112,7 +102,7 @@ body {
 }
 
 @media all and (min-width: 980px) {
-  /* line 41, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+  /* line 27, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
   .contenido {
     margin: 5rem 0;
     display: flex;
@@ -122,25 +112,25 @@ body {
 }
 
 /*GALERIA COMPONENTES */
-/* line 106, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+/* line 91, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
 #galeria .col-lg-4 {
   margin: 0 !important;
   padding: 25px;
 }
 
-/* line 111, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+/* line 96, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
 #galeria .col-lg-4 img {
   width: 100%;
   height: 350px;
 }
 
-/* line 115, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+/* line 100, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
 #galeria .col-lg-4 imghover {
   border: 5px solid #f7f7f7;
 }
 
 @media all and (min-width: 980px) {
-  /* line 123, ../../Desktop/DESAFIO SEO - copia/scss/estilos.scss */
+  /* line 108, ../../Desktop/PROGRAMACION/PROYECTO FINAL/scss/_main */
   .foto2 {
     display: block;
   }

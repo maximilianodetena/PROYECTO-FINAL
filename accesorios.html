@@ -1,45 +1,183 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<meta charset="utf-8">
-	<title>ACCESORIOS</title>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keyboards" content="accesorios,estabilizadores,cables,cargadores,pilas,baterias,varios,pasta termica,carrydisk,adaptadores,cables de red">
+     <meta name="description" content="tienda de accesorios,baterias,cargadores,cables">
+
+     <!-icono-->
+     <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+     <link rel="manifest" href="./assets/site.webmanifest">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Accesorios</title>
+
 </head>
 <body>
-	    <div id="hero">
-	     <p class="textos"> DIGITAL M </p>
-         <p class="accesorios"> ACCESORIOS </p>
 
-<!-- MENU SECUNDARIO-->
-<div>
-    <ul>
-        <li><a href="accesorios.html">ESTABILIZADORES</a></li>
-        <li><a href="accesorios.html">CABLES</a></li>
-        <li><a href="accesorios.html">CARGADORES</a></li>
-        <li><a href="accesorios.html">PILAS Y BATERIAS</a></li>
-        <li><a href="accesorios.html">VARIOS</a></li>
-</div> 
-
-<!-- MENU PRINCIPAL-->
-</div> 
-    <ul>
-    	<li><a href="index.html">HOME</a></li>
-    	<li><a href="componentes.html">COMPONENTES</a></li>
-    	<li><a href="perifericos.html">PERIFERICOS</a></li>
-    	<li><a href="accesorios.html">ACCESORIOS</a></li>
-    	<li><a href="conectividad.html">CONECTIVIDAD</a></li>
-    	<li><a href="contactos.html">CONTACTOS</a></li>
-    </ul>
- </div>
-  
-<!-- PIE DE PAGINA -->
-
-<div id="footer">
-   	<ul>
-   		<li> <a href="">Instagram</a></li>
-   		<li> <a href="">Meta</a></li>
-        <li><a href="">Linkdln</a></li>
-   	</ul>
+<!-- NAVMENU BOOTSTRAP -->
+<header>
+  <div class="container-fluid bg-black-navbar px-0">
+        <div class="container-xl px-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+     <div class="container-fluid">
+       <a class="navbar-brand" href="index.html"></a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contactos.html">Contactos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorias
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="./componentes.html">Componentes</a></li>
+            <li><a class="dropdown-item" href="./notebooks.html">Notebooks</a></li>
+            <li><a class="dropdown-item" href="./accesorios.html">Accesorios</a></li>
+            <li><a class="dropdown-item" href="./conectividad.html">Conectividad</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 </div>
+</div>
+<header>
+
+  <!-- MENU SECUNDARIO-->  
+
+ <!-- GALERIA DE CABLES-->  
+
+<section id="galeria" class="container">
+    <div class="text-center pt-5">
+        <h1>CABLES</h1>
+        <p>Los procesadores Intel® le ofrecen desempeño de primer nivel para uso personal y empresarial. Encuentra una amplia variedad de procesadores por tipo de dispositivo: computadoras portátiles, desktops, estaciones de trabajo y servidores. Descubre las mejores opciones de procesadores para sesiones envolventes de gaming, creación de contenido, IoT y aplicaciones integradas, e inteligencia artificial (IA).</p>
+     </div>
+     <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/cables1.jpg" alt="procesadori9">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/cables2.jpg" alt="procesadori7unlocked">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/cables3.jpg" alt="procesadori710gen">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/cables4.jpg" alt="procesadori510gen">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/cables5.jpg" alt="procesadori512gen">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/cables6.jpg" alt="procesadori3">
+       </div>
+    </div>
+ <section>     
+
+  <!-- GALERIA DE ADAPTADORES-->  
+
+  <section id="galeria" class="container">
+    <div class="text-center pt-5">
+        <h1>ADAPTADORES</h1>
+     </div>
+     <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/adaptador1.jpg" alt="motherboard msi a320">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/adaptador2.jpg" alt="motherboard gigabyte a520m">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/adaptador3.jpg" alt="motherboard asus prime b365m">
+        </div>
+    </div>
+ <section> 
+
+    
+<!-- GALERIA DE PILAS Y BATERIAS-->  
+  
+  <section id="galeria" class="container">
+    <div class="text-center pt-5">
+        <h1>PILAS Y BATERIAS</h1>
+     </div>
+     <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/pila1.webp" alt="ram notebook 8gb">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/pila2.webp" alt="ram notebook 16gb">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/pila3.webp" alt="ram pc fury 16gb">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/pila4.webp" alt="ram pc fury 16gb">
+        </div>
+    </div>
+ <section> 
+
+  <!-- GALERIA VARIOS-->  
+  
+  <section id="galeria" class="container">
+    <div class="text-center pt-5">
+        <h1>VARIOS</h1>
+     </div>
+     <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/varios1.jpg" alt="disco hddr seagate">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/varios2.jpg" alt="disco m2 notebook 320gb">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/varios3.jpg" alt="disco m2 notebook 960gb">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/varios4.jpg" alt="disco ssd kigston 320gb">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/varios5.jpg" alt="disco ssd kigston a400">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-1">
+          <img src="./assets/varios6.jpg" alt="disco notebook m2 2280">
+        </div>
+    </div>
+ <section> 
+    
+
+    <!-- PIE DE PAGINA -->
+
+   <div id="footer">
+      <ul>
+          <li> <a href="">Instagram</a></li>
+          <li> <a href="">Meta</a></li>
+          <li><a href="">Linkdln</a></li>
+      </ul>
+   </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

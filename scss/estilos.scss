@@ -1,2 +1,126 @@
 @import "variables";
-@import "main";
+@import "tools";
+
+/*RESETEO*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+%cualquiernoclase {
+display: flex ;
+}
+
+body {
+  font-family: Copperplate,arial,helvetica, sans-serif;
+  font-size: 1rem;
+  background: linear-gradient(to left ,red,yellow);
+}
+
+
+/*ENCABEZADO*/
+.encabezado {
+      align-items: center;
+            }
+
+
+/*CONTENIDO*/
+
+.bg-black-navbar{
+  @include cualquierCosa;
+}
+.dropdown-menu{
+  background-color: $maincolor !important;
+}
+.btn-outline-success {
+    color: #000 !important;
+    border-color: #000 !important;
+}
+
+.contenido {
+  
+    margin: 30px 0;
+    @extend %cualquiernoclase;
+    flex-direction: column;
+    align-items: center;
+
+      img {
+
+         width:map-get($miMap, alto);
+         height:map-get($miMap, alto);
+
+        @media all and (min-width: $point-md) { 
+           width:map-get($miMap, medio);
+           height: auto;
+          }
+        @media all and (min-width: $point-lg) {
+           width: 30%;
+           height: auto;
+          }
+         }
+
+
+      p {
+         width: map-get($miMap, alto);
+         padding: 5px;
+         margin: 5% 0;
+         border: 2px solid rgb(6, 83, 6);
+         box-sizing: border-box;
+
+          @media all and (min-width: $point-md) {
+
+            width: map-get($miMap, medio);
+            padding: 15px;
+            margin: 0 5%;
+            border: 2px solid rgb(6, 83, 6);
+            box-sizing: border-box;
+          }
+
+          @media all and (min-width: $point-lg) {
+            width: map-get($miMap, light);
+            max-height: 288px;
+            padding: 10px;
+            margin: 0 5%;
+            border: 2px solid rgb(6, 83, 6);
+            box-sizing: border-box;
+          }
+
+        } 
+    @media all and (min-width: $point-md) {   
+         margin: 5rem 1rem;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         } 
+    @media all and (min-width: $point-lg) {
+         margin: 5rem 0;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         }     
+  }
+
+/*GALERIA COMPONENTES */
+
+#galeria .col-lg-4 {
+  
+  margin: 0 !important;
+  padding: 25px;
+
+  img {
+        width: map-get($miMap, total);
+        height: 350px;
+
+     &hover {
+        border: 5px solid #f7f7f7;
+        }       
+      } 
+} 
+
+@media all and (min-width: $point-lg) {
+
+    .foto2 {
+      display: block;
+    }
+    }

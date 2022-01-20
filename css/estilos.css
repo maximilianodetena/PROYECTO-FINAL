@@ -135,7 +135,7 @@ body {
 }
 
 /* line 115, ../PROYECTO FINAL/scss/estilos.scss */
-#galeria .col-lg-4 imghover {
+#galeria .col-lg-4 img:hover {
   border: 5px solid #f7f7f7;
 }
 

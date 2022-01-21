@@ -9,6 +9,9 @@
 .contenido {
   display: flex;
 }
+.contenido img {
+  border-radius: 10px;
+}
 
 /* line 15, ../PROYECTO FINAL/scss/estilos.scss */
 body {
@@ -137,6 +140,7 @@ body {
 /* line 115, ../PROYECTO FINAL/scss/estilos.scss */
 #galeria .col-lg-4 img:hover {
   border: 5px solid #f7f7f7;
+  transition: 0.5s;
 }
 
 @media all and (min-width: 980px) {
@@ -145,5 +149,17 @@ body {
     display: block;
   }
 }
+
+/*AGREGADOS */
+
+#encontratuequipo .col-lg-3 img {
+  border-radius: 10px;
+}
+
+#encontratuequipo .col-lg-3 img:hover {
+    border: 5px solid #f7f7f7;
+    transition: 0.5s;
+}
+
 
 /*# sourceMappingURL=estilos.css.map */

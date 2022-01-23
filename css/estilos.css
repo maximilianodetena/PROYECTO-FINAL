@@ -162,30 +162,33 @@ body {
     transition: 0.5s;
 }
 
-@media all and (min-width: 768px) and (max-width: 992px){
+@media all and (min-width: 768px) and (max-width: 1024px){
 
   #encontratuequipo img {
      height: 90%;
      width: auto;
-     margin: 35px;
+     margin: 3rem;
 
   }
   }
 
-  @media all and (min-width: 576px) and (max-width: 768px){
+  @media all and (min-width: 580px) and (max-width: 1024px){
 
   #encontratuequipo img {
      height: 80%;
      width: auto;
+     margin: 3rem ;
+
 
   }
   }
-   @media all and (max-width: 576px) {
+   @media all and (max-width: 580px) {
 
   #encontratuequipo img {
      height: 60%;
      width: auto;
-     margin: 70px;
+     margin: 5rem ;
+
   }
   }
 /*# sourceMappingURL=estilos.css.map */

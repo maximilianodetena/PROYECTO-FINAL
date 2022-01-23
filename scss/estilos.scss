@@ -49,6 +49,8 @@ body {
 
          width:map-get($miMap, alto);
          height:map-get($miMap, alto);
+         border-radius: 10px;
+
 
         @media all and (min-width: $point-md) { 
            width:map-get($miMap, medio);
@@ -127,7 +129,7 @@ body {
    @media all and (max-width: 580px) {
      height: 60%;
      width: auto;
-     margin: 5rem ;
+     margin: 4rem ;
 
   }
   } 

@@ -101,6 +101,40 @@ body {
          }     
   }
 
+/*FOTOS ENCONTRATUEQUIPO*/
+
+
+#encontratuequipo .col-lg-3 img {
+
+  border-radius: 10px;
+   &hover {
+        border: 5px solid #f7f7f7;
+        } 
+
+    @media all and (min-width: 768px) and (max-width: 1024px){             
+      height: 90%;
+     width: auto;
+     margin: 3rem;
+
+  }
+    @media all and (min-width: 580px) and (max-width: 1024px){
+     height: 80%;
+     width: auto;
+     margin: 3rem ;
+
+
+  }
+   @media all and (max-width: 580px) {
+     height: 60%;
+     width: auto;
+     margin: 5rem ;
+
+  }
+  } 
+ 
+
+
+
 /*GALERIA COMPONENTES */
 
 #galeria .col-lg-4 {

@@ -9,9 +9,6 @@
 .contenido {
   display: flex;
 }
-.contenido img {
-  border-radius: 10px;
-}
 
 /* line 15, ../PROYECTO FINAL/scss/estilos.scss */
 body {
@@ -90,7 +87,7 @@ body {
     border: 2px solid #065306;
     box-sizing: border-box;
   }
-  }
+}
 
 @media all and (min-width: 980px) {
   /* line 64, ../PROYECTO FINAL/scss/estilos.scss */
@@ -124,44 +121,67 @@ body {
   }
 }
 
-/*GALERIA COMPONENTES */ 
+/*FOTOS ENCONTRATUEQUIPO*/
+/* line 107, ../PROYECTO FINAL/scss/estilos.scss */
+#encontratuequipo .col-lg-3 img {
+  border-radius: 10px;
+}
 
-/* line 106, ../PROYECTO FINAL/scss/estilos.scss */
+/* line 110, ../PROYECTO FINAL/scss/estilos.scss */
+#encontratuequipo .col-lg-3 img:hover {
+  border: 5px solid #f7f7f7;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  /* line 107, ../PROYECTO FINAL/scss/estilos.scss */
+  #encontratuequipo .col-lg-3 img {
+    height: 90%;
+    width: auto;
+    margin: 3rem;
+  }
+}
+
+@media all and (min-width: 580px) and (max-width: 1024px) {
+  /* line 107, ../PROYECTO FINAL/scss/estilos.scss */
+  #encontratuequipo .col-lg-3 img {
+    height: 80%;
+    width: auto;
+    margin: 3rem;
+  }
+}
+
+@media all and (max-width: 580px) {
+  /* line 107, ../PROYECTO FINAL/scss/estilos.scss */
+  #encontratuequipo .col-lg-3 img {
+    height: 60%;
+    width: auto;
+    margin: 5rem;
+  }
+}
+
+/*GALERIA COMPONENTES */
+/* line 140, ../PROYECTO FINAL/scss/estilos.scss */
 #galeria .col-lg-4 {
   margin: 0 !important;
   padding: 25px;
 }
 
-/* line 111, ../PROYECTO FINAL/scss/estilos.scss */
+/* line 145, ../PROYECTO FINAL/scss/estilos.scss */
 #galeria .col-lg-4 img {
   width: 100%;
   height: 350px;
 }
 
-/* line 115, ../PROYECTO FINAL/scss/estilos.scss */
+/* line 149, ../PROYECTO FINAL/scss/estilos.scss */
 #galeria .col-lg-4 img:hover {
   border: 5px solid #f7f7f7;
-  transition: 0.5s;
 }
 
 @media all and (min-width: 980px) {
-  /* line 123, ../PROYECTO FINAL/scss/estilos.scss */
+  /* line 157, ../PROYECTO FINAL/scss/estilos.scss */
   .foto2 {
     display: block;
   }
 }
 
-/*AGREGADOS */
-
-#encontratuequipo .col-lg-3 img {
-  border-radius: 10px;
-}
-
-#encontratuequipo .col-lg-3 img:hover {
-    border: 5px solid #f7f7f7;
-    transition: 0.5s;
-}
-
-
-   
 /*# sourceMappingURL=estilos.css.map */

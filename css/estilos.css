@@ -182,13 +182,5 @@ body {
 
   }
   }
-   @media all and (max-width: 580px) {
-
-  #encontratuequipo img {
-     height: 60%;
-     width: auto;
-     margin: 5rem ;
-
-  }
-  }
+   
 /*# sourceMappingURL=estilos.css.map */
